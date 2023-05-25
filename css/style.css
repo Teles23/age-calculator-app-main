@@ -1,0 +1,33 @@
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+.input {
+	height: 119px;
+}
+.calendar {
+	padding: 40px;
+	border-radius: 30px 30px 180px 30px;
+	background-color: var(--white);
+}
+.dados {
+	display: flex;
+	gap: 25px;
+}
+
+.arrow {
+	display: flex;
+	align-items: center;
+}
+
+.error {
+	color: var(--light-red);
+	font-style: italic;
+	font-weight: 400;
+}
+img:hover {
+	background-color: var(--off-black);
+}
+input:focus {
+	border: solid 2px var(--purple) !important;
+}
