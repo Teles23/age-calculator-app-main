@@ -14,7 +14,7 @@ body {
 
 	min-height: 100vh;
 
-	background-color: var(--light-grey);
+	background-color: -webkit-linear-gradient(top, #ffffff, #701f70);
 }
 input {
 	all: unset;
